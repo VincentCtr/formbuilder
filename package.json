@@ -13,7 +13,7 @@
     "tdd": "npm run test -- -w",
     "test": "SERVER_URL=http://localhost:8888/v1 NODE_ENV=test mocha --compilers js:babel/register --recursive --require ./test/setup-jsdom.js $(find test -name '*_test.js')"
   },
-  "main": "build/bundle.js",
+  "main": "src/index.js",
   "dependencies": {
     "bootstrap": "^3.3.7",
     "bootswatch": "^3.3.7",
