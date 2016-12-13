@@ -7,7 +7,7 @@ module.exports = {
   devtool: "eval",
   entry: [
     "webpack-hot-middleware/client?reload=true",
-    "./formbuilder/app"
+    "./formbuilder/app.js"
   ],
   output: {
     path: path.join(__dirname, "build"),
